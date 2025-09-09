@@ -37,6 +37,8 @@ No contexto de negócio, nosso projeto se destaca no agronegócio.
 
 # <a name="c2"></a>2. Implementação no ESP32
 
+Durante a implementação do nosso projeto no Wokwi, tivemos a limitação de que o sensor soil não possui suporte na plataforma. Sendo assim tivemos que utilizar um sensor alternativo disponível na plataforma, que simula o comportamento da entrada analógica de forma semelhante.
+
 <p align="center">
 <img src="/assets/sensor-wokwi.png"></a>
 </p>
