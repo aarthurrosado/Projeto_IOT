@@ -37,3 +37,6 @@ No contexto de negócio, nosso projeto se destaca no agronegócio.
 
 # <a name="c2"></a>2. Implementação no ESP32
 
+<img src="/assets/sensor.wokwi-png"></a>
+
+
