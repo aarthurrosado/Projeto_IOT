@@ -43,4 +43,11 @@ Durante a implementação do nosso projeto no Wokwi, tivemos a limitação de qu
 <img src="/assets/sensor-wokwi.png"></a>
 </p>
 
+# <a name="c3"></a>3. Armazenamento ou Visualização
+
+A comunicação entre o esp32 e nossa aplicação ocorre por meio do protocolo MQTT, que garante o envio das leituras dos sensores de forma eficaz e em tempo real para um broker. O envio das mensagens foi configurado com QoS 0, nível que garante máxima velocidade nesse transporte de dados, sem exigir confirmação de recebimento. Fizemos essa escolha, pelo projeto ser em um cenário de monitoramento contínuo.
+
+Criamos um script em python que se conecta ao broker, recebe as mensagens publicadas e armazena todos os valores em um arquivo csv. Facilitando assim a visualização desses dados tanto para planilhas ou até mesmo treinamento de modelos de machine learning.
+
+
 
