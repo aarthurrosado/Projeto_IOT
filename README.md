@@ -49,5 +49,9 @@ A comunicação entre o esp32 e nossa aplicação ocorre por meio do protocolo M
 
 Criamos um script em python que se conecta ao broker, recebe as mensagens publicadas e armazena todos os valores em um arquivo csv. Facilitando assim a visualização desses dados tanto para planilhas ou até mesmo treinamento de modelos de machine learning.
 
+<p align="center">
+<img src="/assets/var-temp.png"></a>
+</p>
+
 
 
